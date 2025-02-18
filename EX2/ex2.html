@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Word</title>
+    <link rel="stylesheet" href="ex2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mini Word</h1>
+        <label for="Color">Couleur du texte :</label>
+        <input type="color" id="Color">
+        <label for="Size">Taille de la police :</label>
+        <input type="number" id="Size" min="8" max="48" value="12">
+        <label for="Police">Police d'écriture :</label>
+        <select id="Police">
+            <option value="Arial">Arial</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Georgia">Georgia</option>
+        </select>
+
+        <p id="Paragraphe">Ceci est un paragraphe de demonstration.</p>
+    </div>
+
+    <script src="ex2.js"></script>
+</body>
+</html>

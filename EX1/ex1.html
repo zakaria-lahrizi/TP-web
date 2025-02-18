@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Manager</title>
+    <link rel="stylesheet" href="ex1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-form">
+            <h2>Todo Manager</h2>
+            <label for="todo-name">Name:</label>
+            <input type="text" id="todo-name" placeholder="Enter task name">
+            <label for="todo-content">Content:</label>
+            <input type="text" id="todo-content" placeholder="Enter task details">
+            <button onclick="addTodo()" class="add-button">Add Todo</button>
+        </div>
+        <div class="todo-box">
+            <ul id="todo-list"></ul>
+        </div>
+    </div>
+    <script src="ex1.js"></script>
+</body>
+</html>
